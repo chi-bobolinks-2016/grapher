@@ -1,0 +1,7 @@
+<%= form_for :chart, multipart: true do |f| %>
+   <%= f.label "Dataset Name"%>
+   <%= f.text_field :name %> <br /> <br />
+   <%= f.label "Submit Data File"%>
+   <%= f.file_field :data_file %> <br /> <br />
+   <%= f.submit %>
+<% end %>

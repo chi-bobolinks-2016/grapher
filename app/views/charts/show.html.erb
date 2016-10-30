@@ -1,0 +1,7 @@
+<h1><%=@chart.name%> </h1>
+
+<div class="chart">
+  <%= @chart.chart_string.html_safe%>
+</div>
+
+<%= link_to "Back", root_path %>
